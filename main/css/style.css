@@ -37,10 +37,12 @@
 
 .about-title{
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
 }
 
 .section-image{
-    width: 450px;
+    width: 250px;
 }
 
 .work-title{
@@ -59,8 +61,50 @@
     margin: 20px;
 }
 
+.about-box{
+    background: #ece9e94a;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px 0;
+}
+
+.about-box p{
+    padding: 20px;
+    margin: 0px 20px;
+}
+
+.skils-list{
+    margin: 20px;
+    padding: 20px;
+}
+
+.svg-icon{
+    display: inline-block;
+}
+
+.svg-icon svg{
+    width: 80px;
+    height: 120px;
+    margin: 20px;
+}
+
+.svg-icon .long{
+    width: 160px;
+}
+
+
 
 /*ここまで追加*/
+
+
+
+
+
+
+
+
+
+
+
 
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
@@ -221,7 +265,7 @@ section {
 .row {
     max-width: 1245px;
     margin: 0 auto;
-    padding: 75px 0;
+    padding: 25px 0;
     position: relative;
 }
 
