@@ -30,6 +30,22 @@
 /* 1. Defaults & Reset of specific styles across browsers */
 /*------------------------------------------------------------------------------------------*/
 
+/*section*/
+#about{
+    margin: 40px;
+}
+
+#skils{
+    margin: 40px;
+}
+
+#works{
+    margin: 40px;
+}
+
+#contact{
+    margin: 40px;
+}
 
 .topname{
     text-align: center;
@@ -60,6 +76,7 @@
 .work p{
     margin: 20px;
 }
+
 
 .about-box{
     background: #ece9e94a;
