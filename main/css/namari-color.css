@@ -1,4 +1,4 @@
-/* Namari Landing Page Dynamic Style Index
+/*Page Dynamic Style Index
 
 1. Website Default Styling
 2. Navigation
@@ -38,11 +38,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Border Color */
 
 #banner .section-heading:before, .testimonial.classic footer:before {
-    background: #d2b356;
-}
-
-.pricing-block-content:hover {
-    border-color:#d2b356;
+    background: #091eb3;
 }
 
 
@@ -90,7 +86,7 @@ a:hover, #header.nav-solid nav a:hover {
 }
 
 .section-heading h2:after {
-    background:#d2b356;
+    background:#091eb3;
     content:"";
     display:block;
     width:30px;
@@ -140,24 +136,6 @@ body {
     font-weight:normal;
     color:#111;
 }
-
-/* Logo, if you are using Fonts as Logo and not image
-
-#logo h1 {
-    font-family:;
-    font-size:; 
-    font-weight:;
-    color:;
-}
-
-#logo h2 {
-    font-family:;
-    font-size:; 
-    font-weight:;
-    color:;
-}
-
-*/
 
 
 /* Banner Typography */
