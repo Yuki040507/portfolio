@@ -31,7 +31,11 @@
 /*------------------------------------------------------------------------------------------*/
 
 /*section*/
-#about{
+.section-body{
+    margin: 100px 40px 40px;
+    padding-top: 40px;
+}
+/*#about{
     margin: 40px;
     padding-top: 40px;
 }
@@ -49,7 +53,7 @@
 #contact{
     margin: 40px;
     padding-top: 40px;
-}
+}*/
 
 .topname{
     text-align: center;
