@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="ja">
+	<meta charset="UTF-8">
+
+	<title>my portfolio</title>
+
+	<!--Meta Keywords and Description-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/>
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" href="css/color.css">
+
+    <!--Icon Fonts - Font Awesome Icons-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<main>
+	<div id="app" class="container" v-cloak>
+			<transition-group name="fade" tag="div" mode="out-in">
+	        	<form key="1" v-show="!submitted" name="gf_form" method="POST" target="hidden_iframe" :action="formdata.doc" @submit.prevent="gf_submit()">
+	         		<listitem v-for="(item, index) in formdata.survey" :item="item" :index="index"></listitem>
+	         		<button class="btn btn-primary input-group-btn btn-lg">Submit</button>
+	        	</form>
+	        <div key="2" v-show="submitted">
+	          <p>ご連絡ありがとうございます<br>
+	            こちらから返信させていただきます。
+	          </p>
+	        </div>
+	      </transition-group>
+	</div>
+</main>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.6.7/dist/vue.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vee-validate@2.2.0/dist/vee-validate.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vee-validate@2.1.7/dist/locale/ja.js"></script>
+<script type="text/javascript" src="js/vue-gf.js"></script>
+<script type="text/javascript" src="js/vue-gf-data.js"></script>
+
+	<!-- Include JavaScript resources -->
+<script src="js/jquery.1.8.3.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/featherlight.min.js"></script>
+<script src="js/featherlight.gallery.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.stickyNavbar.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/images-loaded.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/site.js"></script>
+
+
+
+</body>
+</html>

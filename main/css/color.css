@@ -293,7 +293,7 @@ h6 {
 /* 7. Footer */
 /*------------------------------------------------------------------------------------------*/
 
-#landing-footer, #landing-footer p, #landing-footer a {
+.landing-footer, .landing-footer p, .landing-footer a {
     font-family: 'Kokoro', sans-serif, Arial, Helvetica;
     font-size:12px;
     font-weight:normal;
@@ -302,6 +302,6 @@ h6 {
 
 /* Footer Icon Color */
 
-#landing-footer i {
+.landing-footer i {
     color:#999;
 }

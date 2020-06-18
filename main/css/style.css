@@ -22,7 +22,7 @@
 - 6.3 Gallery
 - 6.4 Video
 - 6.5 Clients
-- 6.6 Pricing Table
+- 6.6 works Table
 7. Footer
 
 
@@ -32,28 +32,10 @@
 
 /*section*/
 .section-body{
-    margin: 100px 40px 40px;
+    margin: 80px 40px 40px;
     padding-top: 40px;
+    padding-bottom: 40px;
 }
-/*#about{
-    margin: 40px;
-    padding-top: 40px;
-}
-
-#skils{
-    margin: 40px;
-    padding-top: 40px;
-}
-
-#works{
-    margin: 40px;
-    padding-top: 40px;
-}
-
-#contact{
-    margin: 40px;
-    padding-top: 40px;
-}*/
 
 .topname{
     text-align: center;
@@ -79,6 +61,8 @@
     padding: auto;
     border: solid 1.5px black;
     border-radius: 20px;
+    min-height: 520px;
+    box-shadow: 0 10px 25px 0;
 }
 
 .work p{
@@ -123,24 +107,32 @@
     width: 160px;
 }
 
+
+
+.work li{
+    padding: 14px 0;
+    border-bottom: 1px dotted #e1e1e1;
+    list-style: none;
+}
+
+#contact {
+    background: url("../images/contact-images/contact-image-1.png") no-repeat center top;
+    background-size:cover;
+}
+
+.contacttext{
+    background: linear-gradient(transparent 0%, #ffffff 0%);
+    display: inline-block;
+    padding: 0px 20px;
+    border-radius: 10px;
+}
+
 @media only screen and (max-width: 480px) {
 
     /*section*/
-    #about{
-        margin: 10px;
-    }
-
-    #skils{
-        margin: 10px;
-    }
-
-    #works{
-        margin: 10px;
-    }
-
-    #contact{
-        margin: 10px;
-    }
+    .section-body{
+    margin: 10px;
+}
 
     .about1{
         margin: 0px;
@@ -158,17 +150,48 @@
 
 }
 
-/*ここまで追加*/
 
 
+/*form関連*/
+#app[v-cloak] {
+  opacity: 0;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
 
 
+.form-input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 8px;
+    padding: 0 20px;
+}
 
+.textmsg{
+    height:120px;
+}
 
+#msgbox{
+    padding-top: 10px;
+    height:120px;
+}
 
-
-
-
+.btn{
+    display: block;
+    margin: auto;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #2435ff;
+    border-color: #000000;
+}
 
 
 *, *:before, *:after {
@@ -1564,67 +1587,37 @@ blockquote {
     display: inline-block;
 }
 
-/* --------- 6.7 Pricing Table ---------- */
+/* --------- 6.7 works Table ---------- */
 
-.pricing-block-content {
-    background: #fff;
-    padding: 25px 0 25px 0;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07);
-    transition: all 0.2s ease-in-out 0s;
-    position: relative;
-    border: 10px solid #fff;
-}
-
-
-.pricing-block ul {
-    list-style: none;
-    margin: 25px 0 25px 0;
-}
-
-.pricing-block li {
-    padding: 14px 0;
-    border-bottom: 1px dotted #e1e1e1;
-}
-
-.pricing-block li:last-of-type {
-    border:none;
-}
-
-.pricing-block h3 {
-    font-size:17px;
-    text-transform:uppercase;
-    padding-bottom:0;
-}
-
-.pricing-sub {
+.working-sub {
     font-style: italic;
     color:#ccc;
     margin:0 0 25px 0;
 }
 
-/*Price*/
+/*worke*/
 
-.pricing {
+.working {
     background: #f5f5f5;
     padding: 25px;
     position: relative;
 }
 
-.price {
+.worke {
     display: inline-block;
     font-size: 62px;
     font-weight: 700;
     position: relative;
 }
 
-.price span {
+.worke span {
     position: absolute;
     top: 0;
     left: -20px;
     font-size: 22px;
 }
 
-.pricing  p {
+.working  p {
     font-style:italic;
     color:#b4b4b4;
     line-height:auto;
@@ -1637,24 +1630,24 @@ blockquote {
 /* 7. Footer */
 /*------------------------------------------------------------------------------------------*/
 
-#landing-footer {
+.landing-footer {
     clear: both;
 }
 
-#landing-footer .row {
+.landing-footer .row {
     padding: 0;
 }
 
-#landing-footer p {
+.landing-footer p {
     margin: 0;
 }
 
-#landing-footer ul {
+.landing-footer ul {
     list-style: none;
     text-align: right;
 }
 
-#landing-footer li {
+.landing-footer li {
     display: inline-block;
 }
 
@@ -2308,12 +2301,12 @@ blockquote {
     }
 
     /* Footer */
-    #landing-footer #copyright {
+    .landing-footer .copyright {
         float: left;
         width: 50%;
     }
 
-    #landing-footer .social-icons {
+    .landing-footer .social-icons {
         float: right;
         width: 50%;
     }
@@ -2403,12 +2396,12 @@ blockquote {
     }
 
     /* Footer */
-    #landing-footer #copyright {
+    .landing-footer .copyright {
         float: left;
         width: 50%;
     }
 
-    #landing-footer .social-icons {
+    .landing-footer .social-icons {
         float: right;
         width: 50%;
     }
