@@ -27,7 +27,7 @@ app.formdata = {
     {
       name: 1149745453,
       question: 'message',
-      questiontype: 'text',
+      questiontype: 'textarea',
       placeholder: 'message...',
       validate: 'required'
     }

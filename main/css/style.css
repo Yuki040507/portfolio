@@ -127,30 +127,6 @@
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 480px) {
-
-    /*section*/
-    .section-body{
-    margin: 10px;
-}
-
-    .about1{
-        margin: 0px;
-    }
-
-    .about2{
-        margin: 0px;
-    }
-
-    .svg-icon svg{
-    width: 60px;
-    height: 90px;
-    margin: 10px;
-}
-
-}
-
-
 
 /*form関連*/
 #app[v-cloak] {
@@ -174,7 +150,7 @@
 }
 
 .textmsg{
-    height:120px;
+    height:180px;
 }
 
 #msgbox{
@@ -2451,6 +2427,29 @@ blockquote {
         padding-left: 20px;
         padding-right: 20px;
     }
+
+
+}
+@media only screen and (max-width: 480px) {
+
+    /*section*/
+    .section-body{
+    margin: 10px;
+}
+
+    .about1{
+        margin: 0px;
+    }
+
+    .about2{
+        margin: 0px;
+    }
+
+    .svg-icon svg{
+    width: 60px;
+    height: 90px;
+    margin: 10px;
+}
 
     /*-----------------Sections-----------------*/
 
